@@ -2,6 +2,7 @@
 -- It is also helpful to include some test data
 
 -- Create a database called "famous_people"
+DROP TABLE IF EXISTS people;
 
 CREATE TABLE people (
 	id SERIAL PRIMARY KEY,
